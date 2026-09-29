@@ -1,0 +1,30 @@
+{
+  "repository": "alexandroit/stackline-grunt-exec",
+  "packages": [
+    {
+      "name": "@stackline/grunt-exec",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "grunt-exec",
+        "grunt-plugin",
+        "nodejs",
+        "grunt",
+        "gruntplugin",
+        "shell",
+        "exec",
+        "execute",
+        "spawn",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/grunt-exec/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/grunt-exec/-/grunt-exec-1.0.0.tgz",
+      "baselineIntegrity": "sha512-9hUtNxJzgFpEU6nvKM6Xuc6llYsV2ESf6LqaEg5PPlcFq+ELXCG0JbZLD7LlyZOcqfhhnR3WEPuBXtQKb43z6w==",
+      "expectedSha512": "9a42546420ddec92e1ea98e9c4fb346e13f3e370acd3214fbe2ef38254f47b519622b8d44388b383a30120a4aec42db31f2a03ba37790272d0a5a53be6bb59e8",
+      "tag": "docs-stackline-grunt-exec-v1.0.1"
+    }
+  ]
+}
