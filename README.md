@@ -1,3 +1,19 @@
+# @stackline/grunt-exec
+
+Independent maintenance fork of `grunt-exec@3.0.0`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/grunt-exec
+# Preserve existing imports with an npm alias:
+npm install grunt-exec@npm:@stackline/grunt-exec@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-grunt-exec/issues) · [npm](https://www.npmjs.com/package/@stackline/grunt-exec).
+
+## Upstream documentation
+
 [![build status](https://secure.travis-ci.org/jharding/grunt-exec.png?branch=master)](http://travis-ci.org/jharding/grunt-exec)
 grunt-exec
 ==========

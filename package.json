@@ -1,8 +1,8 @@
 {
-  "name": "grunt-exec",
+  "name": "@stackline/grunt-exec",
   "description": "Grunt task for executing shell commands.",
-  "version": "3.0.0",
-  "homepage": "https://github.com/jharding/grunt-exec",
+  "version": "1.0.0",
+  "homepage": "https://github.com/alexandroit/stackline-grunt-exec#readme",
   "author": {
     "name": "Jake Harding",
     "email": "jacob.s.harding@gmail.com"
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jharding/grunt-exec.git"
+    "url": "git+https://github.com/alexandroit/stackline-grunt-exec.git"
   },
   "bugs": {
-    "url": "https://github.com/jharding/grunt-exec/issues"
+    "url": "https://github.com/alexandroit/stackline-grunt-exec/issues"
   },
   "license": "MIT",
   "main": "Gruntfile.js",
@@ -23,14 +23,14 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js && node test/stackline.cjs",
+    "test:package": "node scripts/test-package.mjs"
   },
   "peerDependencies": {
     "grunt": ">=0.4"
   },
   "devDependencies": {
-    "grunt": "^1.0.0",
-    "grunt-contrib-jshint": "^1.1.0"
+    "grunt": "1.6.3"
   },
   "keywords": [
     "grunt",
@@ -38,6 +38,22 @@
     "shell",
     "exec",
     "execute",
-    "spawn"
+    "spawn",
+    "stackline",
+    "maintenance-fork"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": [
+    "tasks",
+    "Gruntfile.js",
+    "LICENSE-MIT",
+    "README.md",
+    "NOTICE",
+    "UPSTREAM.md",
+    "CHANGELOG.md",
+    "SECURITY.md"
   ]
 }
