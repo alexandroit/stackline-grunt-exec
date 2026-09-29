@@ -1,27 +1,54 @@
 # @stackline/grunt-exec
 
-Independent maintenance fork of `grunt-exec@3.0.0`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+> Grunt task for executing shell commands.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/grunt-exec.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/grunt-exec)
+[![license](https://img.shields.io/npm/l/@stackline/grunt-exec.svg?style=flat-square)](https://github.com/alexandroit/stackline-grunt-exec)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-grunt-exec-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-grunt-exec)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/grunt-exec/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/grunt-exec/)** | **[npm](https://www.npmjs.com/package/@stackline/grunt-exec)** | **[Issues](https://github.com/alexandroit/stackline-grunt-exec/issues)** | **[Repository](https://github.com/alexandroit/stackline-grunt-exec)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/grunt-exec` is the Stackline-maintained distribution of `grunt-exec@3.0.0`. It is an independent continuation of [grunt-exec](https://github.com/jharding/grunt-exec); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/grunt-exec@1.0.1` |
+| API target | `grunt-exec@3.0.0` |
+| Supported Node.js | `>=0.8.0` |
+| License | `MIT` |
+| Main entry | `Gruntfile.js` |
+| Runtime dependencies | `none` |
+| Peer dependencies | `grunt >=0.4` |
+
+## Installation
+
+```bash
 npm install @stackline/grunt-exec
-# Preserve existing imports with an npm alias:
-npm install grunt-exec@npm:@stackline/grunt-exec@1.0.0
 ```
 
-See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+Preserve existing imports and plugin resolution with an npm alias:
 
-Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-grunt-exec/issues) · [npm](https://www.npmjs.com/package/@stackline/grunt-exec).
+```bash
+npm install grunt-exec@npm:@stackline/grunt-exec
+```
 
-## Upstream documentation
+## Usage and API reference
 
-[![build status](https://secure.travis-ci.org/jharding/grunt-exec.png?branch=master)](http://travis-ci.org/jharding/grunt-exec)
 grunt-exec
 ==========
 
 Grunt plugin for executing shell commands.
 
-[![NPM](https://nodei.co/npm/grunt-exec.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/grunt-exec/)
-[![NPM](https://nodei.co/npm-dl/grunt-exec.png)](https://nodei.co/npm/grunt-exec/)
 
 Installation
 ------------
@@ -29,13 +56,13 @@ Installation
 Install grunt-exec using npm:
 
 ```
-$ npm install grunt-exec --save-dev
+$ npm install @stackline/grunt-exec --save-dev
 ```
 
 Then add this line to your project's *Gruntfile.js*:
 
 ```javascript
-grunt.loadNpmTasks('grunt-exec');
+grunt.loadNpmTasks('@stackline/grunt-exec');
 ```
 
 Usage
@@ -190,3 +217,26 @@ License
 Original Copyright (c) 2012-2014 [Jake Harding](http://thejakeharding.com)
 Copyright (c) 2016 grunt-exec
 Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+
+## Credits and original authors
+
+- Original project: [grunt-exec](https://github.com/jharding/grunt-exec).
+- Jake Harding.
+- Graeme Wicksted.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`MIT`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-grunt-exec).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.

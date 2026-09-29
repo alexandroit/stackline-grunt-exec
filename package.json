@@ -1,8 +1,8 @@
 {
   "name": "@stackline/grunt-exec",
   "description": "Grunt task for executing shell commands.",
-  "version": "1.0.0",
-  "homepage": "https://github.com/alexandroit/stackline-grunt-exec#readme",
+  "version": "1.0.1",
+  "homepage": "https://alexandro.net/docs/vanilla/grunt-exec/",
   "author": {
     "name": "Jake Harding",
     "email": "jacob.s.harding@gmail.com"
@@ -33,13 +33,17 @@
     "grunt": "1.6.3"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "grunt-exec",
+    "grunt-plugin",
+    "nodejs",
     "grunt",
     "gruntplugin",
     "shell",
     "exec",
     "execute",
     "spawn",
-    "stackline",
     "maintenance-fork"
   ],
   "publishConfig": {
