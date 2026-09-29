@@ -4,7 +4,7 @@
     {
       "name": "@stackline/grunt-exec",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -23,8 +23,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/grunt-exec/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/grunt-exec/-/grunt-exec-1.0.0.tgz",
       "baselineIntegrity": "sha512-9hUtNxJzgFpEU6nvKM6Xuc6llYsV2ESf6LqaEg5PPlcFq+ELXCG0JbZLD7LlyZOcqfhhnR3WEPuBXtQKb43z6w==",
-      "expectedSha512": "9a42546420ddec92e1ea98e9c4fb346e13f3e370acd3214fbe2ef38254f47b519622b8d44388b383a30120a4aec42db31f2a03ba37790272d0a5a53be6bb59e8",
-      "tag": "docs-stackline-grunt-exec-v1.0.1"
+      "expectedSha512": "ddd86647bd95ff3a29a7f5b233c30bcbc215f697a0dbb5cbd668349344492075859d061be5c00d0f2f570b0ca5990eaafe90bd8721d3df89c8ce9fc723ef9dd7",
+      "tag": "docs-stackline-grunt-exec-v1.0.2"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "@stackline/grunt-exec",
   "description": "Grunt task for executing shell commands.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://alexandro.net/docs/vanilla/grunt-exec/",
   "author": {
     "name": "Jake Harding",
